@@ -15,14 +15,19 @@ nav {
     background-color: #ffc017;
     border-bottom: 1px solid #191919;
     align-content: space-evenly;
+    width: 100%;
 }
 
 .logo {
+    width: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
     margin-left: 15%;
 }
 
 .navlist {
-    width: 100%;
+    width: 50%;
     margin-right: 15%;
     display: flex;
     justify-content: flex-end;
@@ -57,13 +62,13 @@ nav {
 /*inizia header*/
 
 header{
-    
+    background-color: #ffc017;
     display: flex;
     justify-content: space-between;
 }
 
 header>.emme{
-    margin-right: 15%;
+   
     display: flex;
     width: 50%;
     justify-content: flex-end;
@@ -73,12 +78,14 @@ header>.emme{
     display: flex;
     margin-left: 15%;
         justify-content: center;
-        /* justify-items: flex-start; */
+       
         flex-direction: column;
         align-items: flex-start;
+        width: 50%;
 }
 
-header> h1{
+ h1{
  font-family: "Spectral", serif;
- font-size: xx-large;
+ font-size: 5rem;
+ margin-bottom: 0;
 }
