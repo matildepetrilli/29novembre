@@ -131,13 +131,15 @@ h1 {
 }
 
 .articles {
-    border: 2px solid black;
+    
     width: 30%;
 }
 
 .number {
     display: flex;
-    border: 2px solid black;
+   color:grey;
+   font-weight: bold;
+   font-size: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -151,10 +153,12 @@ h1 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    
 }
 
 .person>span {
     margin-left: 5px;
+    
 }
 
 .info {
