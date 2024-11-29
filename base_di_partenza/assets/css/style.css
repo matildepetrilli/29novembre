@@ -10,9 +10,14 @@ body {
 }
 
 
+
+nav,
+header {
+    background-color: #ffc017;
+}
+
 nav {
     display: flex;
-    background-color: #ffc017;
     border-bottom: 1px solid #191919;
     align-content: space-evenly;
     width: 100%;
@@ -27,18 +32,20 @@ nav {
 }
 
 .navlist {
-    width: 50%;
+
+        width: 100%;
     margin-right: 15%;
     display: flex;
     justify-content: flex-end;
-}
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;}
 
 .lista {
     display: flex;
     justify-content: flex-end;
-
     width: 60%;
-
+    
 }
 
 .lista>.barra {
@@ -49,43 +56,50 @@ nav {
     align-items: center;
 }
 
-.start{
+.start {
     align-items: center;
     justify-content: center;
+}
+
+button {
+    justify-content: center;
+    display: flex;
     background-color: #191919;
     color: white;
-    width: 20%;
     border-radius: 30px;
-
+    width: 20%;
 }
 
 /*inizia header*/
 
-header{
-    background-color: #ffc017;
-    display: flex;
-    justify-content: space-between;
-}
-
-header>.emme{
+header {
    
     display: flex;
-    width: 50%;
-    justify-content: flex-end;
+
 }
 
-.headerd{
+header>.emme {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    margin: auto;
+    justify-content: center;
+    align-items: stretch;
+   
+}
+
+.headerd {
     display: flex;
     margin-left: 15%;
-        justify-content: center;
-       
-        flex-direction: column;
-        align-items: flex-start;
-        width: 50%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
 }
 
- h1{
- font-family: "Spectral", serif;
- font-size: 5rem;
- margin-bottom: 0;
+h1 {
+    font-family: "Spectral", serif;
+    font-size: 4rem;
+    font-weight: normal;
+    margin: 0;
 }
