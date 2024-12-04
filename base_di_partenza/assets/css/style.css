@@ -10,14 +10,13 @@ body {
 }
 
 header {
-    position: relative;
     background-color: #FFC017;
 }
 
 .barra {
     border-bottom: 2px solid black;
     display: flex;
-    position: fixed;
+    position: sticky;
     width: 100%;
     align-items: center;
     justify-content: space-around;
@@ -54,7 +53,7 @@ li {
     height: 40px;
 }
 .headerdiv{
-
+display: block;
 }
 .containertitle{
     display: flex;
